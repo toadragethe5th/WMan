@@ -1,4 +1,4 @@
-# Wman
+# WMan
 the EASY package manager for Windows.
 
 
