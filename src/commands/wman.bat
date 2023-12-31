@@ -15,5 +15,6 @@ if "%1"=="" (
         bitsadmin /create /download package
         bitsadmin /addfile package "%output%"
         bitsadmin /info package /verbose
+        echo Package installed.
     )
 )
