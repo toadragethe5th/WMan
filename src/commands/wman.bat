@@ -1,15 +1,12 @@
 @echo off
-
 cd %userprofile%
 rem Bear in mind I don't know Batch that well.
-
 if "%1"=="" (
     echo ERROR: No argument
 ) else (
     for /F "delims=" %%i in ('findstr "%1" repo.pkgl') do (
         set "output=%%i"
     )
-
     if "%output%" == "" (
         echo ERROR: No package by that name.
     ) else (
