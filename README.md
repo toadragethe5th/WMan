@@ -8,6 +8,6 @@ Installation is easy! All you have to do is snag the latest repo release, move i
 AND YOU ARE DONE!
 
 ### SIZE
-
+All of these are the approximate sizes unzipped:
 - without essential files: 811 bytes
-- With essential files:
+- With essential files: 36.4 KB
